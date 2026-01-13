@@ -19,7 +19,7 @@ st.set_page_config(
 inject()
 
 # ---------- TITLE AND DESCRIPTION ----------
-st.markdown("<h1 class='warm-text'>📊 لوحة تحليل متاجر ماروف</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='warm-text'>📊 لوحة تحليل متاجر معروف</h1>", unsafe_allow_html=True)
 st.markdown("<p class='sub-text'>تحليل بسيط لأكثر من 70,000 متجر إلكتروني لاختيار أفضل مجال في 2026</p>", unsafe_allow_html=True)
 
 # ---------- CHECK DATA ----------
