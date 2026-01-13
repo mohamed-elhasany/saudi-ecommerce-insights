@@ -540,9 +540,25 @@ st.markdown(f"""
 
 # ---------- FOOTER ----------
 st.divider()
-st.markdown("""
-<div style='text-align: center; padding: 20px;' class='sub-text'>
-👨‍💻 محمد الحسني - محلل بيانات | 📧 elhasanymohamed123@gmail.com<br>
-البيانات من منصة "معروف" | التحليل لمساعدتك في اتخاذ قرار مدروس
-</div>
-""", unsafe_allow_html=True)
+with st.container():
+    st.markdown("""
+    <div class="footer">
+        <div class="analyst-info">
+            <h3 style="color: var(--dark-text-warm); margin-bottom: 0.5rem;">👨‍💻 نبذة عن محلل البيانات</h3>
+            <p style="color: var(--dark-text-secondary); margin-bottom: 0.5rem;">
+                <b>محمد الحسني</b> | محلل بيانات عام
+            </p>
+            <p style="color: var(--dark-text-secondary);">
+                📧 <b>البريد الإلكتروني:</b> elhasanymohamed123@gmail.com<br>
+                🔗 <b>روابط الأعمال:</b> 
+                <a href="https://github.com/mohamed-elhasany" target="_blank" style="color: var(--dark-text-cool); text-decoration: none;">GitHub</a> •
+                <a href="https://khamsat.com/user/elhasany_123" target="_blank" style="color: var(--dark-text-cool); text-decoration: none;">خمسات</a> •
+                <a href="https://www.freelancer.com/u/mohamede0226" target="_blank" style="color: var(--dark-text-cool); text-decoration: none;">Freelancer</a> •
+                <a href="https://cute-sawine-f485eb.netlify.app/" target="_blank" style="color: var(--dark-text-cool); text-decoration: none;">موقعي الشخصي</a>
+            </p>
+        </div>
+        <p style="color: var(--dark-text-secondary); margin-top: 1rem; font-size: 0.9rem;">
+            تم البناء باستخدام ❤️ عبر Streamlit و Plotly • مجموعة البيانات: بيانات التجارة الإلكترونية البرازيلية العامة من Olist
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
