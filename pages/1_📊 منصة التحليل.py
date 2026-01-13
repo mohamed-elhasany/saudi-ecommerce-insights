@@ -11,7 +11,7 @@ from analysis import (
 
 # ---------- PAGE CONFIG ----------
 st.set_page_config(
-    page_title="لوحة تحليل المتاجر - ماروف",
+    page_title="لوحة تحليل المتاجر - معروف",
     page_icon="📊",
     layout="wide"
 )
